@@ -2,7 +2,8 @@ package test;
 
 public class Test {
 
-   // este es un comentario de eprueba 
+   // este es un comentario de prueba
+   //confirmo de recibido y te corrijo el error de  ortografia 
     public static void main(String[] args) {    
     
         Operaciones obj=new Operaciones ();
