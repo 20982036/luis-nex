@@ -11,11 +11,20 @@ package mensaje;
  */
 public class Mensaje {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    private String frase;
+
+public void imprime ( ) {
     
+String frase = “Este es mi mensaje”;
+System.out.println("mensaje.Mensaje.imprime()" + frase);
+System.out.println(“La frase del mensaje es: ” + frase );
+}
+
+/*
+}public class FuncionPrincipal {
+public static void main (String arg[]){
+Mensaje miMensaje = new Mensaje ( );
+miMensaje.imprime ( );
+}*/
+
 }
