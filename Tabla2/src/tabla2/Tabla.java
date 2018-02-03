@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package tabla2;
 
 class Tabla{
@@ -12,7 +7,7 @@ private int limite;
     
 public void  leeNums( ) {
 System.out.print ("Que tabla quieres multiplicar: ");
-numTabla = DatosEntrada.entero( );
+numTabla = DatosEntrada.entero();
 System.out.print ("Cuantas veces?: ");
 limite = DatosEntrada.entero( );
 }
