@@ -1,12 +1,16 @@
 package tabla.x;
 
-class Principal extends Principalito {
+class Principal {
     
   
+
 private int numTabla;
 private int limite;
 
-
+    public static void main(String ar [] ) {
+    TablaX miTabla = new TablaX( );
+}
+    
 public void  leeNums( ) {
 System.out.print ("Que tabla quieres multiplicar: ");
 numTabla = TablaX.entero( );
