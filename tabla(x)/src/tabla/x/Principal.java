@@ -1,6 +1,6 @@
 package tabla.x;
 
-class Principal {
+class Principal extends Principalito {
     
   
 private int numTabla;
