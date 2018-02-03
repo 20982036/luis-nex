@@ -1,7 +1,6 @@
-
 package tabla.x;
 
-class Principalito extends TablaX {
+class Principalito {
     
 public static void main(String ar [] ) {
 TablaX miTabla = new TablaX( );

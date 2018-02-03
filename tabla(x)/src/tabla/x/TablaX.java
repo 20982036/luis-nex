@@ -1,3 +1,6 @@
+package tabla.x;
+
+
 import java.io.*;   //se importan librerias a utilizar
 
 
