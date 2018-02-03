@@ -1,4 +1,6 @@
 class Tabla {
+    
+    
 private int numTabla;
 private int limite;
 public void leeNums( ) {
