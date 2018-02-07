@@ -7,7 +7,7 @@ private int limite;
     
 public void  leeNums( ) {
 System.out.print ("Que tabla quieres multiplicar: ");
-numTabla = DatosEntrada.entero( );
+numTabla = DatosEntrada.entero();
 System.out.print ("Cuantas veces?: ");
 limite = DatosEntrada.entero( );
 }

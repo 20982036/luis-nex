@@ -1,9 +1,10 @@
 
 package tabla2;
 
-class Principal { 
+class Principal extends DatosEntrada{ 
     
-    public static void main(String ar [] ) { 
+    public static void main(String arg [] ) { 
+        String cad;
         
         Tabla miTabla = new Tabla( ); 
         miTabla.leeNums( ); 
