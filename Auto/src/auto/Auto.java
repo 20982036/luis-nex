@@ -23,9 +23,9 @@ int kilometraje;
 
     Public void Venta(){
         System.out.printIn("La marca del auto es"+marca+", submarca"+submarca+", modelo"+modelo+", con las placas"+placa+", tiene un kilometraje de"+kilometraje+"a un super precio de "+precio+); 
-    }
     
-}
+    }
+
 
 package AutoN;
 

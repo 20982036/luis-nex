@@ -1,5 +1,5 @@
 
-package Jardinero;
+package Archivo;
 
 public class Archivo {
     public static void Archivo(String) []args{

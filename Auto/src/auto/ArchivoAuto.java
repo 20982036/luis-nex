@@ -7,30 +7,35 @@ public class ArchivoAuto {
     
         Auto.marca();
 }
+    
     public static void ArchivoAuto(String) []args{
     
         Auto Auto = new Auto("2017",);
     
         Auto.modelo();
 }
+    
     public static void ArchivoAuto(String) []args{
     
         Auto Auto = new Auto("EfficientDynamics",);
     
         Auto.submarca();
 }
+    
     public static void ArchivoAuto(String) []args{
     
         Auto Auto = new Auto("Hello365",);
     
         Auto.placa();
 }
+    
     public static void ArchivoAuto(String) []args{
     
         Auto Auto = new Auto("250,000",);
     
         Auto.precio();
 }
+    
     public static void ArchivoAuto(String) []args{
     
         Auto Auto = new Auto("50,000",);
@@ -40,43 +45,27 @@ public class ArchivoAuto {
 }
 
 //AutoNuevo
-package Auto;
+package AutoN;
 
-public class ArchivoAuto {
-    public static void ArchivoAuto(String) []args{
+public class AutoN {
+    public static void AutoN(String) []args{
     
-        Auto Auto = new Auto("BMWi",);
-    
-        Auto._marca();
-}
-    public static void ArchivoAuto(String) []args{
-    
-        Auto Auto = new Auto("2018",);
-    
-        Auto._modelo();
-}
-    public static void ArchivoAuto(String) []args{
-    
-        Auto Auto = new Auto("BMWi",);
-    
-        Auto._submarca();
-}
-    public static void ArchivoAuto(String) []args{
-    
-        Auto Auto = new Auto("BYE720",);
-    
-        Auto._placa();
-}
-    public static void ArchivoAuto(String) []args{
-    
-        Auto Auto = new Auto("2,000,000",);
-    
-        Auto._precio();
-}
-    public static void ArchivoAuto(String) []args{
-    
-        Auto Auto = new Auto("0.0",);
-    
-        Auto._kilometraje();
+        Auto Auto = new AutoN("BMWi",);
+        AutoN._marca();
+        
+        Auto Auto = new AutoN("2018",);
+        AutoN._modelo();
+        
+        Auto Auto = new AutoN("BMWi",);
+        AutoN._submarca();
+        
+        Auto Auto = new AutoN("BYE720",);
+        AutoN._placa();
+        
+        Auto Auto = new AutoN("2,000,000",);
+        AutoN._precio();
+        
+        Auto Auto = new AutoN("0.0",);
+        AutoN._kilometraje();
 }
 }
