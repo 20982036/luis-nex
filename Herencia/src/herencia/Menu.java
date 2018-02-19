@@ -23,13 +23,13 @@ static String fecha;
     
     public void menu() throws IOException{
     Scanner leeDato = new Scanner(System.in);
-       System.out.println("Escribe codigo (solo caracteres numericos): ");
+       System.out.println("Escribe codigo (solo numeros): ");
        codigo = leeDato.nextInt();
        System.out.println("Escribe descripcion de producto (una palabra): ");
        descripcion = leeDato.next();
        System.out.println("Escribe cantidad: ");
        cantidad = leeDato.nextInt(); 
-       System.out.println("Escribe precio unitario");
+       System.out.println("Escribe precio unitario: ");
        precio = leeDato.nextDouble();
        System.out.println("El producto es perecedero?(S|N): ");
        perecedero = leeDato.next().charAt(0);

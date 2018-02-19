@@ -48,15 +48,15 @@ public class DetallePrecio extends DetalleProducto{
         
         char opcion;
         Scanner leeDato = new Scanner(System.in);
-        System.out.println("Codigo es: "+getCodigo());
+        System.out.println("Codigo: "+getCodigo());
         System.out.println("Descripcion: "+getDescripcion());
         System.out.println("Caducidad: "+datodia+" "+datomes+" "+datoanio);
-        System.out.println("cantidad es: "+getCantidad());
-        System.out.println("Total de IVA es: "+iva);
-        System.out.println("Subtotal de compra es: "+subtotal);
-        System.out.println("Total de compra es: "+total);
-        System.out.println("Total de compra con descuento es: "+descuento);
-        System.out.println("Desea regresar al menu principal? (S|N): ");
+        System.out.println("cantidad: "+getCantidad());
+        System.out.println("Total de IVA: "+iva);
+        System.out.println("Subtotal de compra: "+subtotal);
+        System.out.println("Total de compra: "+total);
+        System.out.println("Total de compra con descuento: "+descuento);
+        System.out.println("¿Desea regresar al menu principal? (S|N): ");
         opcion = leeDato.next().charAt(0);
         if(opcion == 'S'||opcion=='s'){
           
@@ -65,7 +65,7 @@ public class DetallePrecio extends DetalleProducto{
         }    
         else{
             
-            System.out.println("Gracias por haber usado este programa!");
+            System.out.println("Gracias por la preferencia!");
             System.exit(0);
         }
         
