@@ -1,6 +1,8 @@
 
 package claseabstracta;
 
+import java.io.IOException;
+
 public abstract class ClaseAbstracta {
    
     public abstract void autopista();{
